@@ -3,6 +3,6 @@
     <hr class="text-white">
 
     <div class="list-group list-reset">
-        <button *ngFor="let item of tags" class="list-group-item list-group-item-color mt-1">{{item | titlecase}}</button>
+        <button *ngFor="let item of tags" (click)="reSendTag(item)" class="list-group-item list-group-item-color mt-1">{{ item | titlecase }}</button>
     </div>
 </div>
