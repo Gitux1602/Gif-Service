@@ -1,27 +1,33 @@
-# GifsApp
+# GifsApp 🎨
+GifsApp es un proyecto desarrollado en Angular que permite buscar archivos GIF a partir de palabras clave ingresadas por el usuario, conectándose con el servicio web de Giphy. A través de una interfaz amigable, el usuario puede realizar búsquedas y visualizar los GIFs correspondientes a los términos de búsqueda introducidos.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+🚀 Funcionalidades
+📥 Búsqueda de GIFs: Permite buscar GIFs ingresando una palabra clave o tag.
+📋 Historial de búsqueda: Guarda los últimos 10 términos buscados para facilitar búsquedas recurrentes.
+🔄 Actualización en tiempo real: Los resultados se muestran de forma automática sin necesidad de recargar la página.
 
-## Development server
+🛠️ Requisitos del Proyecto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Framework	Angular
+- Versión Angular	12 o superior
+- Lenguaje	TypeScript
+- API Externa	Giphy API
 
-## Code scaffolding
+Este proyecto fue generado con Angular CLI versión 16.1.4.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+🚀 Ejecución del Proyecto
 
-## Build
+Clona el repositorio:
+bash
+git clone https://github.com/usuario/repo.git
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Instala las dependencias:
+bash
+npm install
 
-## Running unit tests
+Ejecuta la aplicación:
+bash
+ng serve
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Accede a la aplicación en tu navegador:
+URL: http://localhost:4200
